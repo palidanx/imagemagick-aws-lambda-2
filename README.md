@@ -63,6 +63,15 @@ These libraries are currently bundled:
 
 ## Deploying to AWS as a layer
 
+* Create the bucket name first in the account
+* Make sure aws credentials are set on env environment
+
+```
+export AWS_SECRET_ACCESS_KEY=YYY
+export AWS_REGION=us-west-2
+export AWS_ACCESS_KEY_ID=XXX
+```
+
 Run the following command to deploy the compiled result as a layer in your AWS account.
 
 ```
